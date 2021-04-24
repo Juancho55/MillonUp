@@ -63,9 +63,9 @@ namespace Data
         /// <param name="parameters">List of params filter procedure not required</param>
         /// <param name="storeProcedure">Name Procedure.</param>
         /// <returns>A object result.</returns>
-        public Object GetsAny(string storeProcedure, IDictionary<string, object> parameters = null)
+        public DataTable GetsAny(string storeProcedure, IDictionary<string, object> parameters = null)
         {
-            Object result = new Object();
+            DataTable result = new DataTable();
             try
             {
                 SqlCommand cmd = new SqlCommand(storeProcedure, conection.sqlConnection);

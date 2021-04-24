@@ -3,15 +3,26 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Data Millon</PackageId>
+    <PackageId>MyPackageDataJDLV</PackageId>
     <PackageProjectUrl>https://github.com/Juancho55/MillonUp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Juancho55/MillonUp</RepositoryUrl>
     <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>test</PackageTags>
+    <PackageReleaseNotes>Test</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
     <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

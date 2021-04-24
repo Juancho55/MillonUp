@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyPackage</id>
+    <version>1.0.0</version>
+    <authors>Data</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/Juancho55/MillonUp</projectUrl>
+    <description>Package Description</description>
+    <releaseNotes>Test</releaseNotes>
+    <tags>test</tags>
+    <repository type="git" url="https://github.com/Juancho55/MillonUp" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Data\Data\bin\Debug\netcoreapp3.1\Data.dll" target="lib\netcoreapp3.1\Data.dll" />
+    <file src="C:\Users\Usuario\Documents\GitHub\MillonUp\LICENSE" target="LICENSE" />
+  </files>
+</package>
