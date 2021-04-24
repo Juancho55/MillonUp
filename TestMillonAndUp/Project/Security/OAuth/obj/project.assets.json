@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\Security\\OAuth\\OAuth.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\Security\\OAuth\\OAuth.csproj",
       "projectName": "OAuth",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\Security\\OAuth\\OAuth.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\Security\\OAuth\\OAuth.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\Security\\OAuth\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\Security\\OAuth\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

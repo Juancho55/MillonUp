@@ -6,7 +6,7 @@
     <PackageId>Data Millon</PackageId>
     <PackageProjectUrl>https://github.com/Juancho55/MillonUp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Juancho55/MillonUp</RepositoryUrl>
-    <PackageLicenseExpression>https://github.com/Juancho55/MillonUp/blob/main/LICENSE</PackageLicenseExpression>
+    <PackageLicenseExpression></PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

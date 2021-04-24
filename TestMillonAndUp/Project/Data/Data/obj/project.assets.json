@@ -587,11 +587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\Data\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\Data\\Data\\Data.csproj",
       "projectName": "Data Millon",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\Data\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\Data\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\Data\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\Data\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

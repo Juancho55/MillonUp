@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\API\\APIRest\\APIRest.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\API\\APIRest\\APIRest.csproj",
       "projectName": "APIRest",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\API\\APIRest\\APIRest.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\API\\APIRest\\APIRest.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\API\\APIRest\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\MillonUp\\TestMillonAndUp\\Project\\API\\APIRest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
