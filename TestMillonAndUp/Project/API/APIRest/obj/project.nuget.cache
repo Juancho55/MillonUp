@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "saqG6hNvLKvfveIgB0zpFE3CRLWp06dKcCGjFL9m1i9RuNlkFQo9VLU6Lg2/78A/JeqIy7IDma3YvENRhtDCUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TestMillonAndUp\\Project\\API\\APIRest\\APIRest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
