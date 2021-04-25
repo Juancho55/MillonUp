@@ -34,8 +34,6 @@ namespace Services
 
             if (result != null)
             {
-
-
                 foreach (DataRow item in result.Rows)
                 {
                     owner.IdOwner = Convert.ToInt64(item.ItemArray[0].ToString());

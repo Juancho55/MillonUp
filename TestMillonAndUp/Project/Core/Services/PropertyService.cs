@@ -1,5 +1,4 @@
-﻿
-namespace Services
+﻿namespace Services
 {
     using System;
     using System.Collections.Generic;

@@ -15,6 +15,7 @@ namespace UnitTestServices
         private TraslapEntityToDictionary _traslapEntityToDictionary;
         private OwnerService _services;
         private PropertyService _propertyService;
+        private PropertyImageService _propertyImageService;
 
         [SetUp]
         public void Setup()
@@ -23,6 +24,7 @@ namespace UnitTestServices
             _traslapEntityToDictionary = new TraslapEntityToDictionary();
             _services = new OwnerService(_acctions, _traslapEntityToDictionary);
             _propertyService = new PropertyService(_acctions);
+            _propertyImageService = new PropertyImageService(_acctions);
         }
 
         [Test]
@@ -45,6 +47,14 @@ namespace UnitTestServices
             List<Property> properties = _propertyService.getPropertisByOwnerId(1000);
 
             Assert.IsTrue(properties.Count > 0);
+        }
+
+        [Test]
+        public void TestPropertyImages()
+        {
+            List<PropertyImage> propertiesImages = _propertyImageService.getsImagesByPropertyId(10007);
+
+            Assert.IsTrue(propertiesImages.Count > 0);
         }
     }
 }
