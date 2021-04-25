@@ -20,7 +20,7 @@ namespace Services.Entity
         /// <summary>
         /// Gets or sets id Propety
         /// </summary>
-        public long IdPropertyId { get; set; }
+        public long? IdPropertyId { get; set; }
 
         /// <summary>
         /// Gets or sets image on base 64.

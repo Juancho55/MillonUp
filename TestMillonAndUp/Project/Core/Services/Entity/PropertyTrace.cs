@@ -39,6 +39,6 @@ namespace Services.Entity
         /// <summary>
         /// Gets or Sets IdProperty
         /// </summary>
-        public long IdProperty { get; set; }
+        public long? IdProperty { get; set; }
     }
 }

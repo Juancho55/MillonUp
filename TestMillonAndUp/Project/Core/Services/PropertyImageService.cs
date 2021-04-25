@@ -30,11 +30,10 @@
             if (data != null)
             {
                 propertyImages = (from a in data.AsEnumerable()
-                                  select new PropertyImage()
+                                  select new PropertyImage
                                   {
                                       IdPropertyImage = Convert.ToInt64(a.ItemArray[0].ToString()),
-                                      IdPropertyId = Convert.ToInt64(a.ItemArray[1].ToString()),
-                                      File = a.ItemArray[2].ToString()
+                                      File = a.ItemArray[1].ToString()
                                   }).ToList();
             }
 

@@ -16,6 +16,7 @@ namespace UnitTestServices
         private OwnerService _services;
         private PropertyService _propertyService;
         private PropertyImageService _propertyImageService;
+        private PropertyTraceServices _propertyTraceServices;
 
         [SetUp]
         public void Setup()
@@ -25,6 +26,7 @@ namespace UnitTestServices
             _services = new OwnerService(_acctions, _traslapEntityToDictionary);
             _propertyService = new PropertyService(_acctions);
             _propertyImageService = new PropertyImageService(_acctions);
+            _propertyTraceServices = new PropertyTraceServices(_acctions);
         }
 
         [Test]
@@ -55,6 +57,14 @@ namespace UnitTestServices
             List<PropertyImage> propertiesImages = _propertyImageService.getsImagesByPropertyId(10007);
 
             Assert.IsTrue(propertiesImages.Count > 0);
+        }
+
+        [Test]
+        public void TestPropertyTraces()
+        {
+            List<PropertyTrace> propertiesTraces = _propertyTraceServices.GetPropertyTracesByPropertyId(10007);
+
+            Assert.IsTrue(propertiesTraces.Count > 0);
         }
     }
 }
