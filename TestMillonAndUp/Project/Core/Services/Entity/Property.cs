@@ -46,6 +46,6 @@ namespace Services.Entity
         /// <summary>
         /// Gets or Sets state.
         /// </summary>
-        public byte State { get; set; }
+        public byte? State { get; set; }
     }
 }

@@ -12,7 +12,7 @@ namespace Services.Logic
         {
             IDictionary<string, object> owner = new Dictionary<string, object>();
             owner.Add("NikName", filter.NickName);
-            owner.Add("Password", filter.NickName);
+            owner.Add("Password", filter.Password);
             return owner;
         }
     }

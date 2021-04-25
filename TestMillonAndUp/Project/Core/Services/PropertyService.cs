@@ -7,8 +7,6 @@ namespace Services
     using System.Linq;
     using Data;
     using Entity;
-    using Filters;
-    using Logic;
 
     public class PropertyService
     {
@@ -37,10 +35,9 @@ namespace Services
                                  IdProperty = Convert.ToInt64(a.ItemArray[0].ToString()),
                                  Name = a.ItemArray[1].ToString(),
                                  Address = a.ItemArray[2].ToString(),
-                                 CodeInternal = a.ItemArray[3].ToString(),
-                                 Price = Convert.ToDecimal(a.ItemArray[4].ToString()),
-                                 State = Convert.ToByte(a.ItemArray[5].ToString()),
-                                 Year = Convert.ToInt32(a.ItemArray[6].ToString())
+                                 Price = Convert.ToDecimal(a.ItemArray[3].ToString()),
+                                 CodeInternal = a.ItemArray[4].ToString(),
+                                 Year = Convert.ToInt32(a.ItemArray[5].ToString())
                              }).ToList();
             }
 

@@ -15,17 +15,10 @@ namespace Data
     public class Acctions
     {
         /// <summary>
-        /// Acces class conection.
-        /// </summary>
-        private readonly Conection conection;
-
-        /// <summary>
         /// Gets or sets class of acction.
         /// </summary>
-        /// <param name="conection">A conecction bd.</param>
-        public Acctions(Conection conection)
+        public Acctions()
         {
-            this.conection = conection;
         }
 
         /// <summary>
@@ -37,6 +30,8 @@ namespace Data
         public bool InsertAny(IDictionary<string, object> parameters, string storeProcedure)
         {
             bool result = false;
+
+            Conection conection = new Conection();
 
             try
             {
@@ -65,6 +60,8 @@ namespace Data
         /// <returns>A object result.</returns>
         public DataTable GetsAny(string storeProcedure, IDictionary<string, object> parameters = null)
         {
+            Conection conection = new Conection();
+
             DataTable result = new DataTable();
             try
             {
@@ -76,6 +73,7 @@ namespace Data
                 }
                 conection.Conex();
                 SqlDataAdapter sqdt = new SqlDataAdapter();
+                sqdt.SelectCommand = cmd;
 
                 DataTable dt = new DataTable();
 
@@ -106,7 +104,7 @@ namespace Data
         {
             foreach (var item in parameters)
             {
-                Type t = parameters.Values.GetType();
+                Type t = item.Value.GetType();
 
                 if (t.Equals(typeof(byte)))
                     cmd.Parameters.Add("@" + item.Key, SqlDbType.Bit).Value = item.Value;
