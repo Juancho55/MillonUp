@@ -7,3 +7,9 @@ C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAut
 C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\obj\Debug\netcoreapp3.1\OAuth.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\obj\Debug\netcoreapp3.1\OAuth.dll
 C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\obj\Debug\netcoreapp3.1\OAuth.pdb
+C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\bin\Debug\netcoreapp3.1\OAuth.dll.config
+C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\bin\Debug\netcoreapp3.1\Services.pdb
+C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Usuario\Documents\GitHub\MillonUp\TestMillonAndUp\Project\Security\OAuth\obj\Debug\netcoreapp3.1\OAuth.csproj.CopyComplete

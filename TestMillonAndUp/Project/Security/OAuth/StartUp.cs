@@ -35,7 +35,7 @@ namespace OAuth
                 AllowInsecureHttp = true
             };
 
-            app.UseOAuthBearerTokens(OAuthOptions);
+            //app.UseOAuthBearerTokens(OAuthOptions);
         }
 
         /// <summary>
